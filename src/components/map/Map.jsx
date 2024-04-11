@@ -12,6 +12,8 @@ import {
 import { Icon } from "leaflet";
 import styles from "./Map.module.css";
 import { useCities } from "../../contexts/CitiesContext";
+import { useGeolocation } from "../../hooks/useGeoLocation";
+import Button from "../button/Button";
 
 // Create custom Marker
 const customIcon = new Icon({
@@ -21,13 +23,17 @@ const customIcon = new Icon({
 
 function Map() {
   const { cities } = useCities();
-
   // Location of currently selected city
   const [searchParams, setSearchParams] = useSearchParams();
   const mapLat = searchParams.get("lat");
   const mapLng = searchParams.get("lng");
 
   const [mapPosition, setMapPosition] = useState([40, 0]);
+  const {
+    isLoading: isLoadingPosition,
+    position: geoLocationPosition,
+    getPosition,
+  } = useGeolocation();
 
   // Synced the mapPosition state with the current mapLat and mapLng as it comes from the url
   useEffect(
@@ -37,8 +43,22 @@ function Map() {
     [mapLat, mapLng]
   );
 
+  // Synced the mapPosition state with the geoLocation
+  useEffect(
+    function () {
+      if (geoLocationPosition)
+        setMapPosition([geoLocationPosition.lat, geoLocationPosition.lng]);
+    },
+    [geoLocationPosition]
+  );
+
   return (
     <div className={styles.mapContainer}>
+      {!geoLocationPosition && (
+        <Button type="position" onClick={getPosition}>
+          {isLoadingPosition ? "Loading..." : "Use your position"}
+        </Button>
+      )}
       <MapContainer
         center={mapPosition}
         zoom={6}
