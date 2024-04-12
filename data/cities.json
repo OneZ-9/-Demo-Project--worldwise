@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,91 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "ac71",
+      "cityName": "Valdepenas",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-04-12T15:37:07.792Z",
+      "notes": "",
+      "position": {
+        "lat": "38.7419429954325",
+        "lng": "-3.4716796875000004"
+      }
+    },
+    {
+      "id": "178b",
+      "cityName": "Warakapola",
+      "country": "Sri Lanka",
+      "emoji": "🇱🇰",
+      "date": "2024-04-12T16:50:29.074Z",
+      "notes": "",
+      "position": {
+        "lat": "7.127307509019256",
+        "lng": "80.24414062500001"
+      }
+    },
+    {
+      "id": "da63",
+      "cityName": "Kuruvita",
+      "country": "Sri Lanka",
+      "emoji": "🇱🇰",
+      "date": "2024-04-12T16:54:34.258Z",
+      "notes": "",
+      "position": {
+        "lat": "6.769399210895356",
+        "lng": "80.30456542968751"
+      }
+    },
+    {
+      "id": "3b28",
+      "cityName": "Horana South",
+      "country": "Sri Lanka",
+      "emoji": "🇱🇰",
+      "date": "2024-04-12T16:55:32.219Z",
+      "notes": "",
+      "position": {
+        "lat": "6.731166041888268",
+        "lng": "80.09033203125001"
+      }
+    },
+    {
+      "id": "0d7c",
+      "cityName": "Balangoda",
+      "country": "Sri Lanka",
+      "emoji": "🇱🇰",
+      "date": "2024-04-12T16:56:00.405Z",
+      "notes": "",
+      "position": {
+        "lat": "6.6057732090231145",
+        "lng": "80.73852539062501"
+      }
+    },
+    {
+      "id": "8c3e",
+      "cityName": "Seethawaka",
+      "country": "Sri Lanka",
+      "emoji": "🇱🇰",
+      "date": "2024-04-12T16:56:00.405Z",
+      "notes": "",
+      "position": {
+        "lat": "6.959932781958183",
+        "lng": "80.20019531250001"
+      }
+    },
+    {
+      "id": "e999",
+      "cityName": "Lake Michigan",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-04-12T17:02:19.420Z",
+      "notes": "wish to travel",
+      "position": {
+        "lat": "42.61741932120574",
+        "lng": "-86.48437500000001"
+      }
     }
   ]
 }
