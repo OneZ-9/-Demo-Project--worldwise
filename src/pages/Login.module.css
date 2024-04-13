@@ -19,6 +19,19 @@
   margin: 8rem auto;
 }
 
+.retry {
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  padding: 2rem 3rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  width: 48rem;
+  margin: 8rem auto;
+}
+
 .row {
   display: flex;
   flex-direction: column;
