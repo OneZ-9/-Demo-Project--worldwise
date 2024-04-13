@@ -9,7 +9,7 @@ functionalities to be added..
 
 ## ✨Features 
 * Keep your travel destinations, add your experience and memories with a note
-* * Synchronize and add your locations with map
+* Synchronize and add your locations with map
 * User Login and Authentication
 
 ## 🎉Enhanced Features 
