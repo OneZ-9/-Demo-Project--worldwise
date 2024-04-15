@@ -47,6 +47,18 @@
         "lat": "42.61741932120574",
         "lng": "-86.48437500000001"
       }
+    },
+    {
+      "id": "9649",
+      "cityName": "Township of Cass",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-04-15T07:37:58.665Z",
+      "notes": "",
+      "position": {
+        "lat": "40.51612738412129",
+        "lng": "-90.30761718750001"
+      }
     }
   ]
 }
