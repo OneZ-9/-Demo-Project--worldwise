@@ -133,7 +133,7 @@ function CitiesProvider({ children }) {
   // Delete city
   async function deleteCity(id) {
     // any data we get from url will be a string, so we have to convert it before the comparison
-    if (Number(id) === currentCity.id) return;
+    // if (Number(id) === currentCity.id) return;
 
     dispatch({ type: "loading" });
     try {
