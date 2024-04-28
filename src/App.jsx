@@ -14,7 +14,7 @@ import ProtectedRoute from "./pages/ProtectedRoute";
 
 import CityList from "./components/citylist/CityList";
 import CountryList from "./components/countrylist/CountryList";
-import City from "./components/City/City";
+import City from "./components/city/City";
 import Form from "./components/form/Form";
 import SpinnerFullPage from "./components/spinner/SpinnerFullPage";
 
